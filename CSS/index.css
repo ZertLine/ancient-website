@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: royal;
+    src: url(fonts/RoyalCrescent-G8BP.ttf);
+}
+
+@font-face{
+    font-family: noto;
+    src: url(fonts/NotoSans-Light.ttf);
+}
+
+::selection {
+    color: #6ad8e2;
+    background: #292e44ad;
+}
+
+body{
+    background-color: rgba(62,70,103,1);
+    display: flex;
+}
+
+.logo-container{
+    font-family: royal;
+    flex: 1;
+    height: 100vh;
+    text-align: center;
+    padding-top: 15vh;
+}
+
+.text-container{
+    flex: 1;
+    height: 100vh;
+    text-align: center;
+    padding-top: 45vh;
+}
+
+.text{
+    font-family: royal;
+}
+
+.link{
+    border: 2px solid #25d2e3;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px 10px;
+    color: #292e44;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.link:hover{
+    background-color: #25d2e3;
+    color: #292e44;
+}
+  
